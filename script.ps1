@@ -1,11 +1,15 @@
 $daemonuser = "Teamsothertennant"
-$daemonpasswd = ConvertTo-SecureString "Teams" -AsPlainText -Force
+$daemonpasswd = ConvertTo-SecureString "924bc34b2a890635fe1151e41f68adc2" -AsPlainText -Force 
+#maybe generate uniqe passwd per user, but unsure how to store it properly
 $daemoncreds = New-Object System.Management.Automation.PSCredential $daemonuser, $daemonpasswd
-
+Write-Host $daemoncreds
 $currentuser=(Get-WmiObject -Class win32_computersystem).UserName.split('\')[1]
 
 $currentpasswd = ConvertTo-SecureString "not-referenced" -AsPlainText -Force
+$teams_root_filepath = "C:\Users\"+$daemonuser+"\AppData\Local\Microsoft\Teams\current\Teams.exe"
+$installer_location = $Env:Programfiles+"\teamsothertenant\TeamsSetup.exe"
 
+Write-Host $installer_location
 $is_installed_path = $Env:Programfiles+"\teamsothertenant\is_installed.blob"
 
 $installerScriptPath = Split-Path $MyInvocation.InvocationName
@@ -13,21 +17,24 @@ $installerScriptPath = Split-Path $MyInvocation.InvocationName
 cd $Env:Programfiles\teamsothertenant\
 
 if (-not(Test-Path -Path $is_installed_path -PathType Leaf)) {
-     try {
-         
-         & $PSScriptRoot\install.ps1
-         $null = New-Item -ItemType File -Path $is_installed_path -Force -ErrorAction Stop
-         Write-Host "The file [is_installed_path] has been created."
-     }
-     catch {
-         throw $_.Exception.Message
-     }
- }
-# If the file already exists, show the message and do nothing.
- else {
-     Write-Host "Cannot create [$file] because a file with that name already exists."
- }
-#New-LocalUser $daemonuser -Password $passwd -FullName "Teamsothertenant User" -Description "system account for adding another teams instance to your PC until MS fixes their shit"
+    try {
+        Write-Host "_________ ..... Isnt installed, trying to start install ......_________" -f Yellow
+        & $PSScriptRoot\install.ps1
+        $null = New-Item -ItemType File -Path $is_installed_path -Force -ErrorAction Stop
+        Write-Host "_________ ..... Daemon sucsessfully installed ......_________" -f Yellow
+        Write-Host "The checkfile at [$is_installed_path] has been created"
+    }
+    catch {
+        throw $_.Exception.Message
+    }
+}
+# If the file a lready exists, show the message and do nothing.
+else {
+    Write-host "_________ This message is intended _________" -f Cyan
+    Write-Host "will not install and prepare the deamon user [$daemonuser] again for teams other tenant as the checkfile [$is_installed_path] already exists. If you are re-installing or debugging, ensure to check if you deleted all the entries in program files and your user start menu in appdata " -f Yellow
+    & $PSScriptRoot\start.ps1
+}
+
 
 
 #cd C:\Users\$daemonuser\AppData\Local\Microsoft\Teams\current\
