@@ -1,3 +1,10 @@
+#2022 Jlangisch https://www.jlangisch.de https://www.jmg-it.de
+#        
+#        This program is free software: you can redistribute it and/or modify
+#        it under the terms of the GNU General Public License as published by
+#        the Free Software Foundation, either version 3 of the License, or
+#        (at your option) any later version.  [the rest removed for clarity]
+
 $credspath = "C:\Program Files (x86)\teamsothertenant\creds.xml"
 $creds =import-clixml -path $credspath
 Write-Host "_________ ....creds imported ......_________" -f Yellow
