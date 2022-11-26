@@ -24,7 +24,7 @@
     <a href="https://feedbackportal.microsoft.com/feedback/idea/c9995dc8-811a-ed11-b83e-000d3a4d9c20"><strong>Post on the MS feedackportal to get that implemented to teams properly »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/otherteams">View Demo</a>
+    <a href="https://github.com/github_username/otherteams">View Demo NO DEMO HERE</a>
     ·
     <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
     ·
