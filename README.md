@@ -53,32 +53,6 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -93,6 +67,10 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- What does this do? -->
+## What does this do?
+
+This runs a second instance of teams in another local user profile and shows you the output. 
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -122,13 +100,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
+<!-- ROADMAP & Known issues-->
+## Roadmap & Known issues
 
 - [ ] User Management (capable of multiple users)
-- [ ] X     
-- [ ] X
-    - [ ] X
+- [ ] OneLogin seems to be buggy at startup sometimes. 
+    - [ ] use the "log out" button teams shows you. Maybe close and restart app. If started, it keeps running for the day.
 
 See the [open issues](https://github.com/jacksonthemaster/otherTeams/issues) for a full list of proposed features (and known issues).
 
