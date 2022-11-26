@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/jacksonthemaster/otherTeams">
-    <img src="https://raw.githubusercontent.com/JacksonTheMaster/otherTeams/main/Teams_2.ico" alt="Logo" width="160" height="160">
+    <img src="https://raw.githubusercontent.com/JacksonTheMaster/otherTeams/main/Teams_2.ico" alt="Logo" width="250" height="250">
   </a>
 <h3 align="center">OtherTeams</h3>
 
@@ -166,7 +166,7 @@ See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-J. Langisch - [@langischjs](https://twitter.com/langischjs) - jakob.langisch@gmail.com
+J. Langisch - [@langischjs](https://twitter.com/langischjs) - j.langisch@jmg-it.de
 
 Project Link: [https://github.com/jacksonthemaster/otherTeams](https://github.com/jacksonthemaster/otherTeams)
 
@@ -177,9 +177,8 @@ Project Link: [https://github.com/jacksonthemaster/otherTeams](https://github.co
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [My wife for not seeing me in a day](My wife for not seeing me in a day)
+* [Reddit](Reddit)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
