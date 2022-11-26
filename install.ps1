@@ -1,11 +1,3 @@
-if (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator')) {
-    if ([int](Get-CimInstance -Class Win32_OperatingSystem | Select-Object -ExpandProperty BuildNumber) -ge 6000) {
-    $CommandLine = "-File `"" + $MyInvocation.MyCommand.Path + "`" " + $MyInvocation.UnboundArguments
-    Start-Process -FilePath PowerShell.exe -Verb Runas -ArgumentList $CommandLine
-    Exit
-    }
-}
-
 $credspath = "C:\Program Files (x86)\teamsothertenant\creds.xml"
 Write-Host "_________ ......Installing teamsothertennat ......_________" -f Magenta
 $creds =import-clixml -path $credspath
@@ -15,7 +7,10 @@ Write-Host $creds.Password
 $daemonuser = $creds.UserName
 $daemonpasswd = $creds.Password
 $daemoncreds = New-Object System.Management.Automation.PSCredential $daemonuser, $daemonpasswd
-Write-Host "_________ .....daemoncreds; creating admin......_________" -f Yellow
+Write-Host "_________ .....daemoncreds......_________" -f Yellow
+
+
+
 
 
 New-LocalUser $daemonuser -Password $daemonpasswd -FullName "Teamsothertenant User" -Description "daemon f 2nd teams untl MS fixes their shit"
