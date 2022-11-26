@@ -154,7 +154,7 @@ Project Link: [https://github.com/jacksonthemaster/otherTeams](https://github.co
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [My wife for not seeing me in a day](My wife for not seeing me in a day)
+* My wife for not seeing me in a day
 * [Reddit](Reddit)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
