@@ -4,23 +4,31 @@
 #$daemonpasswd = creds.Password
 #maybe generate uniqe passwd per user, but unsure how to store it properly -> maybe i did?
 #$daemoncreds = New-Object System.Management.Automation.PSCredential $daemonuser, $daemonpasswd
-$currentuser=(Get-WmiObject -Class win32_computersystem).UserName.split('\')[1]
-#$credspath = $Env:Programfiles+"\teamsothertenant\creds.xml"
+#$currentuser=(Get-WmiObject -Class win32_computersystem).UserName.split('\')[1]
+
 #$creds =import-clixml -path $credspath
 #$currentpasswd = ConvertTo-SecureString "not-referenced" -AsPlainText -Force
-$installer_location = $Env:Programfiles+"\teamsothertenant\TeamsSetup.exe"
+$installer_location = "C:\Program Files (x86)\teamsothertenant\TeamsSetup.exe"
+Write-Host $installer_location
 
+$blobfile = "C:\Program Files (x86)\teamsothertenant\is_installed.blob"
 
-
-$blobfile = $Env:Programfiles+"\teamsothertenant\is_installed.blob"
-
-$installerScriptPath = Split-Path $MyInvocation.InvocationName
-
-cd $Env:Programfiles\teamsothertenant\
+# Self-elevate the script if required reddit shit
+if (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator')) {
+    if ([int](Get-CimInstance -Class Win32_OperatingSystem | Select-Object -ExpandProperty BuildNumber) -ge 6000) {
+    $CommandLine = "-File `"" + $MyInvocation.MyCommand.Path + "`" " + $MyInvocation.UnboundArguments
+    Start-Process -FilePath PowerShell.exe -Verb Runas -ArgumentList $CommandLine
+    Exit
+    }
+}
 
 if (-not(Test-Path -Path $blobfile -PathType Leaf)) {
     try {
-        Write-Host "_________ ..... Isnt installed, trying to start install ......_________" -f Yellow
+        Write-Host "_________ ..... Isnt installed, trying to create creds ......_________" -f Yellow
+        & $PSScriptRoot\get_creds.ps1
+        #$c = $host.ui.PromptForCredential("Need credentials", "Please enter your user name and password.", "", "NetBiosUserName")
+        
+        Write-Host "_________ ..... Isnt installed, trying to setup user ......_________" -f Yellow
         & $PSScriptRoot\install.ps1
         $null = New-Item -ItemType File -Path $blobfile -Force -ErrorAction Stop
         Write-Host "_________ ..... Daemon sucsessfully installed ......_________" -f Yellow
