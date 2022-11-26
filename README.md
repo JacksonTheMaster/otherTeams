@@ -24,7 +24,7 @@
     <a href="https://feedbackportal.microsoft.com/feedback/idea/c9995dc8-811a-ed11-b83e-000d3a4d9c20"><strong>Post on the MS feedackportal to get that implemented to teams properly »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/otherteams">View Demo</a>
+    <a href="https://github.com/github_username/otherteams">View Demo NO DEMO HERE</a>
     ·
     <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
     ·
@@ -155,7 +155,7 @@ Project Link: [https://github.com/jacksonthemaster/otherTeams](https://github.co
 [issues-shield]: https://img.shields.io/github/issues/jacksonthemaster/otherTeams.svg?style=for-the-badge
 [issues-url]: https://github.com/jacksonthemaster/otherTeams/issues
 [license-shield]: https://img.shields.io/github/license/jacksonthemaster/otherTeams.svg?style=for-the-badge
-[license-url]: https://github.com/jacksonthemaster/otherTeams/blob/master/LICENSE
+[license-url]: https://github.com/jacksonthemaster/otherTeams/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
