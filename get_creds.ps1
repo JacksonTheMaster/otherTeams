@@ -7,24 +7,16 @@ if (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     }
 }
 
-
-Write-Host "_________ In the next screen, you will specify credentials. ......_________" -f White
-Write-Host "_________ These will be used to create local administrator _________" -f White
-Write-Host "_________ use something like teamsothertenant // 76()//8vb%m9c098p>4c8 _________" -f White
-Write-Host "_________ feel free to use keyboard spam if you dont want access to the account _________" -f White
-Write-Host "_________ DO NOT USE DOMAIN ACCOUNTS OR EXISTING ONES_________" -f Red
-#$Shell = New-Object -ComObject "WScript.Shell"
-#$Button = $Shell.Popup("
-#In the next screen, you will specify credentials
-#These will be used to create local administrator
-#use something like teamsothertenant // 76()//8vb%m9c098p>4c8
-#feel free to use keyboard spam if you dont want access to the account
-#DO NOT USE DOMAIN ACCOUNTS OR EXISTING ACCOUNTS
-#CLICK OK TO PROCEED
-#", 0, "IMPORTANT INFORMATION", 0)
-
-
-
+Write-Host "_________ In the next screen, you will specify credentials. ......________________" -f White
+Write-Host "_________ These will be used to create local administrator _______________________" -f Red
+Write-Host "_________ use something like teamsothertenant // 76/8vb%m9c#098p>4c8 _____________" -f White
+Write-Host "__________________________________________________________________________________" -f White
+Write-Host "_________ DO NOT USE DOMAIN ACCOUNTS OR EXISTING ONES_____________________________" -f Red
+Write-Host "_________ IF YOU HAVE PASSWORD POLICIES IN PLACE YOU NEED TO RESPECT THEM_________" -f Red
+Write-Host "_________ IF YOU HAVE PASSWORD POLICIES IN PLACE YOU NEED TO RESPECT THEM_________" -f Red
+Write-Host "_________ If ou see a short error and nothing happens, set a better passwd________" -f Red
+Write-Host "_________ feel free to use keyboard spam if you dont need access to the account___" -f Red
+Write-Host "_________ IF YOU HAVE PASSWORD POLICIES IN PLACE YOU NEED TO RESPECT THEM_________" -f Red
 $credential 
 $credspath = $Env:Programfiles+"\teamsothertenant\creds.xml"
 Write-Host $credspath

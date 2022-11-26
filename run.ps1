@@ -1,13 +1,3 @@
-#$daemonuser = "Teamsothertennant"
-#$daemonuser = creds.UserName
-#$daemonpasswd = ConvertTo-SecureString "924bc34b2a890635fe1151e41f68adc2" -AsPlainText -Force 
-#$daemonpasswd = creds.Password
-#maybe generate uniqe passwd per user, but unsure how to store it properly -> maybe i did?
-#$daemoncreds = New-Object System.Management.Automation.PSCredential $daemonuser, $daemonpasswd
-#$currentuser=(Get-WmiObject -Class win32_computersystem).UserName.split('\')[1]
-
-#$creds =import-clixml -path $credspath
-#$currentpasswd = ConvertTo-SecureString "not-referenced" -AsPlainText -Force
 $installer_location = "C:\Program Files (x86)\teamsothertenant\TeamsSetup.exe"
 Write-Host $installer_location
 
@@ -44,12 +34,3 @@ else {
     Write-Host "will not install and prepare a deamon user again for teams other tenant as the checkfile [$blobfile] already exists. If you are re-installing or debugging, ensure to check if you deleted all the entries in program files and your user start menu in appdata " -f Yellow
     & $PSScriptRoot\start.ps1
 }
-
-
-
-#cd C:\Users\$daemonuser\AppData\Local\Microsoft\Teams\current\
-#Start-Process "C:\Users\Teams\AppData\Local\Microsoft\Teams\current\Teams.exe" -Credential $daemoncreds
-
-
-
-#move shortcut to startmenu C:\Users\$currentuser\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
