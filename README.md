@@ -31,19 +31,20 @@
 <br />
 <div align="center">
   <a href="https://github.com/jacksonthemaster/otherTeams">
-    <img src="https://raw.githubusercontent.com/JacksonTheMaster/otherTeams/main/Teams_2.ico" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/JacksonTheMaster/otherTeams/main/Teams_2.ico" alt="Logo" width="160" height="160">
   </a>
 
 <h3 align="center">otherTeams</h3>
 
   <p align="center">
-    add another Teamsto your user!
+    add another Teams to your windows user by beating microsoft with their own weapons!
+    
+    This is the problem:
+     <br />
+    <a href="[https://github.com/jacksonthemaster/otherTeams](https://feedbackportal.microsoft.com/feedback/idea/c9995dc8-811a-ed11-b83e-000d3a4d9c20)"><strong>/feedbackportal.microsoft.com thread »</strong></a>
     <br />
-    <a href="https://github.com/jacksonthemaster/otherTeams"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/jacksonthemaster/otherTeams">View Demo</a>
-    ·
+    
+ 
     <a href="https://github.com/jacksonthemaster/otherTeams/issues">Report Bug</a>
     ·
     <a href="https://github.com/jacksonthemaster/otherTeams/issues">Request Feature</a>
