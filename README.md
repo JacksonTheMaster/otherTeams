@@ -33,23 +33,23 @@
   <a href="https://github.com/jacksonthemaster/otherTeams">
     <img src="https://raw.githubusercontent.com/JacksonTheMaster/otherTeams/main/Teams_2.ico" alt="Logo" width="160" height="160">
   </a>
-
-<h3 align="center">otherTeams</h3>
+<h3 align="center">project_title</h3>
 
   <p align="center">
-    add another Teams to your windows user by beating microsoft with their own weapons!
-    
-    This is the problem:
-     <br />
-    <a href="[https://github.com/jacksonthemaster/otherTeams](https://feedbackportal.microsoft.com/feedback/idea/c9995dc8-811a-ed11-b83e-000d3a4d9c20)"><strong>/feedbackportal.microsoft.com thread »</strong></a>
+    Add another Teams to your windows user by beating microsoft with their own weapons!
     <br />
-    
- 
-    <a href="https://github.com/jacksonthemaster/otherTeams/issues">Report Bug</a>
+    <a href="https://feedbackportal.microsoft.com/feedback/idea/c9995dc8-811a-ed11-b83e-000d3a4d9c20"><strong>Post on the MS feedackportal to get that implemented to teams properly »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/github_username/otherteams">View Demo</a>
     ·
-    <a href="https://github.com/jacksonthemaster/otherTeams/issues">Request Feature</a>
+    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
   </p>
 </div>
+    
+
 
 
 
@@ -81,27 +81,14 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `jacksonthemaster`, `otherTeams`, `langischjs`, `linkedin_username`, `gmail`, `jakob.langisch`, `otherTeams`, `add another Teamsto your user!`
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+[![PS][Powershell.ps1]][ps-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,10 +125,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] User Management (capable of multiple users)
+- [ ] X     
+- [ ] X
+    - [ ] X
 
 See the [open issues](https://github.com/jacksonthemaster/otherTeams/issues) for a full list of proposed features (and known issues).
 
@@ -170,7 +157,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,7 +166,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@langischjs](https://twitter.com/langischjs) - jakob.langisch@gmail.com
+J. Langisch - [@langischjs](https://twitter.com/langischjs) - jakob.langisch@gmail.com
 
 Project Link: [https://github.com/jacksonthemaster/otherTeams](https://github.com/jacksonthemaster/otherTeams)
 
@@ -213,9 +200,9 @@ Project Link: [https://github.com/jacksonthemaster/otherTeams](https://github.co
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[Next.js]: https://img.shields.io/badge/powershell-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[ps-url]: https://microsoft.com/
+[Powershell.ps1]: https://img.shields.io/badge/Powershell-4579d4?style=for-the-badge&logo=Powershell&logoColor=white
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
