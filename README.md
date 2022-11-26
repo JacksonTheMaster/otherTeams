@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/jacksonthemaster/otherTeams">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/JacksonTheMaster/otherTeams/main/Teams_2.ico" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">otherTeams</h3>
