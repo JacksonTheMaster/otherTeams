@@ -32,7 +32,7 @@
   </p>
 </div>
     
-
+[![Download][Download]][download-url]
 
 
 
@@ -155,13 +155,15 @@ Project Link: [https://github.com/jacksonthemaster/otherTeams](https://github.co
 [issues-shield]: https://img.shields.io/github/issues/jacksonthemaster/otherTeams.svg?style=for-the-badge
 [issues-url]: https://github.com/jacksonthemaster/otherTeams/issues
 [license-shield]: https://img.shields.io/github/license/jacksonthemaster/otherTeams.svg?style=for-the-badge
-[license-url]: https://github.com/jacksonthemaster/otherTeams/blob/master/LICENSE.txt
+[license-url]: https://github.com/jacksonthemaster/otherTeams/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/powershell-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [ps-url]: https://microsoft.com/
 [Powershell.ps1]: https://img.shields.io/badge/Powershell-4579d4?style=for-the-badge&logo=Powershell&logoColor=white
+[download-url]: https://github.com/JacksonTheMaster/otherTeams/releases
+[download]: https://img.shields.io/badge/Take%20me%20to%20the%20downloads-e7141a?style=for-the-badge&logo=Github&logoColor=white
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
