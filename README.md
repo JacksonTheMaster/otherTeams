@@ -33,7 +33,7 @@
   <a href="https://github.com/jacksonthemaster/otherTeams">
     <img src="https://raw.githubusercontent.com/JacksonTheMaster/otherTeams/main/Teams_2.ico" alt="Logo" width="160" height="160">
   </a>
-<h3 align="center">project_title</h3>
+<h3 align="center">OtherTeams</h3>
 
   <p align="center">
     Add another Teams to your windows user by beating microsoft with their own weapons!
