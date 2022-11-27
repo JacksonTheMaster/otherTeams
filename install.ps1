@@ -14,10 +14,6 @@ if (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 
 $credspath = "C:\Program Files (x86)\teamsothertenant\creds.xml"
 Write-Host "_________ ......Installing teamsothertennat ......_________" -f Magenta
-$creds =import-clixml -path $credspath
-Write-Host "_________ ....creds imported ......_________" -f Yellow
-Write-Host $creds.UserName
-Write-Host $creds.Password
 $daemonuser = $creds.UserName
 $daemonpasswd = $creds.Password
 $daemoncreds = New-Object System.Management.Automation.PSCredential $daemonuser, $daemonpasswd
