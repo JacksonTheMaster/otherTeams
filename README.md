@@ -70,11 +70,12 @@ Admin Account on windows device
 ### Installation
 
 Install the MSI Package (asks for admin perms)
-Run the Shortcut in your Startmenu called (Type Teams)
-Set a username and a Password:
+Run the Shortcut in your Startmenu called Teams (type Teams)
+Set a username and a Password.
 
 
 ### (User Setup)
+(automatically happening)
 
 Setup a user LIKE:
 teamsuser
