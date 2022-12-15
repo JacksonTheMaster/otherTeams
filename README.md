@@ -59,6 +59,9 @@ This runs a second instance of teams in another local user profile and shows you
 ## Getting Started
 
 Download the MSI package
+[![Download][Download]][download-url]
+
+
 
 ### Prerequisites
 
@@ -66,7 +69,26 @@ Admin Account on windows device
 
 ### Installation
 
-Install the msi package in Programm Files 32
+Install the MSI Package (asks for admin perms)
+Run the Shortcut in your Startmenu called (Type Teams)
+Set a username and a Password:
+I STRONGLY recomend setting something like teamsbotuser and 32 char string as password, you wont need it ever again.
+
+Teams is then downloaded and installed i the new user profile. 
+
+When its done, login as usual. 
+
+To open, run the shortcut from the Startmenu. 
+
+### Closing
+
+To kill, close app before closing it from the taskbar icon (in the System drawer, right side taskbar, the little "up" arrow :) )
+
+### Uninstall
+
+Uninstall from Apps menu in Windows as usual
+
+delete creds from C:\Program Files (x86)\teamsothertenant 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
