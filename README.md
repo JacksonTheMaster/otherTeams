@@ -16,7 +16,7 @@
   <a href="https://github.com/jacksonthemaster/otherTeams">
     <img src="https://raw.githubusercontent.com/JacksonTheMaster/otherTeams/main/Teams_2.ico" alt="Logo" width="250" height="250">
   </a>
-<h3 align="center">[OBSOLETE]OtherTeams</h3>
+<h3 align="center">[FUN WHILE IT LASTED]OtherTeams</h3>
 
   <p align="center">
     Add another Teams to your windows user by beating microsoft with their own weapons!
@@ -49,6 +49,8 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Histroical Context
+This tool was developed back when the old Electron based Microsoft Teams (now called Teams Classic) did not support multiple accounts within the same application. It served as a workaround to allow users to access different Teams accounts simultaneously on the same computer. While Microsoft has since added native multi-account support to WebView2 Teams, this utility *might* still be useful for some die hard legacy Teams Classic users or specific scenarios. Though, I guess, If you work for a company and read this in 2025, is IS probably too late.
 
 <!-- What does this do? -->
 ## What does this do?
